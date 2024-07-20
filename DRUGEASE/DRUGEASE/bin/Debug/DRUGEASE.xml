@@ -1,0 +1,761 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DRUGEASE
+</name>
+</assembly>
+<members>
+<member name="T:DRUGEASE.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources._131_1315793_printer_icon_print_icon_png_circle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources._14_Add_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources._375px_Cancel_icon_svg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources._NEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.ar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.billing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.delete_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.employee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.ezgif_com_webp_to_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.information">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.istockphoto_1177190052_612x612">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.kindpng_2022852">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.LOGOUT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.LOUGOUT_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.medicine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.MENU">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.NicePng_png_file_icon_3353491">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.NORMAL_SIZED_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.OOjs_UI_icon_cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.pharmacy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.pharmacy_mark_4x">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.pharmacy_mark_4x1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.PngItem_1893518">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.pur3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.PURCHASE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.return_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DRUGEASE.My.Resources.Resources.save_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10.AGENCYMANAGERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10.AGENCYMANAGERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10.AGENCYMANAGERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10TableAdapters.AGENCYMANAGERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2.SIGNUP_PAGEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2.SIGNUP_PAGERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2.SIGNUP_PAGERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2TableAdapters.SIGNUP_PAGETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3.MEDICINEMASTERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3.MEDICINEMASTERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3.MEDICINEMASTERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3TableAdapters.MEDICINEMASTERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4.MEDICINEMASTERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4.MEDICINEMASTERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4.MEDICINEMASTERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4TableAdapters.MEDICINEMASTERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5.MEDICINEMASTERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5.MEDICINEMASTERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5.MEDICINEMASTERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5TableAdapters.MEDICINEMASTERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6.MEDICINEMASTERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6.MEDICINEMASTERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6.MEDICINEMASTERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6TableAdapters.MEDICINEMASTERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7.MEDICINEMASTERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7.MEDICINEMASTERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7.MEDICINEMASTERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7TableAdapters.MEDICINEMASTERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8.EMPLOYEEMANAGERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8.EMPLOYEEMANAGERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8.EMPLOYEEMANAGERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8TableAdapters.EMPLOYEEMANAGERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9.AGENCYMANAGERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9.AGENCYMANAGERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9.AGENCYMANAGERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9TableAdapters.AGENCYMANAGERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(DRUGEASE.DRUGEASEDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(DRUGEASE.DRUGEASEDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(DRUGEASE.DRUGEASEDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.UpdateAll(DRUGEASE.DRUGEASEDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DRUGEASE.DRUGEASEDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9D63FF3-7B9E-4B83-AFA1-999291D6ED36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DRUGEASE.My.MyApplication</StartupObject>
+    <RootNamespace>DRUGEASE</RootNamespace>
+    <AssemblyName>DRUGEASE</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DRUGEASE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DRUGEASE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MAIN ICON.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OleDb, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.OleDb.7.0.0\lib\net462\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AGENCYMANAGER.Designer.vb">
+      <DependentUpon>AGENCYMANAGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AGENCYMANAGER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CrystalReport2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DRUGEASEDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRUGEASEDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEEMANAGER.Designer.vb">
+      <DependentUpon>EMPLOYEEMANAGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEEMANAGER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MEDICINEMASTER.Designer.vb">
+      <DependentUpon>MEDICINEMASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MEDICINEMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AGENCYMASTER.Designer.vb">
+      <DependentUpon>AGENCYMASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AGENCYMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPLOYEEMASTER.Designer.vb">
+      <DependentUpon>EMPLOYEEMASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEEMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOADING PAGE.Designer.vb">
+      <DependentUpon>LOADING PAGE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOADING PAGE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGINSINGUP.Designer.vb">
+      <DependentUpon>LOGINSINGUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGINSINGUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MEDICINEMANAGER.Designer.vb">
+      <DependentUpon>MEDICINEMANAGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MEDICINEMANAGER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu page.Designer.vb">
+      <DependentUpon>Menu page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PURCHASE.Designer.vb">
+      <DependentUpon>PURCHASE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASEMASTER.Designer.vb">
+      <DependentUpon>PURCHASEMASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASEMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SALE.Designer.vb">
+      <DependentUpon>SALE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SALE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SALESMASTER.Designer.vb">
+      <DependentUpon>SALESMASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SALESMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIGNUP PAGE.Designer.vb">
+      <DependentUpon>SIGNUP PAGE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SIGNUP PAGE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STOCKMASTER.Designer.vb">
+      <DependentUpon>STOCKMASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STOCKMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW AGENCY.Designer.vb">
+      <DependentUpon>VIEW AGENCY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW AGENCY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW MEDICINE.Designer.vb">
+      <DependentUpon>VIEW MEDICINE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW MEDICINE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW PURCHASE.Designer.vb">
+      <DependentUpon>VIEW PURCHASE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW PURCHASE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW SALE.Designer.vb">
+      <DependentUpon>VIEW SALE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW SALE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW STOCK.Designer.vb">
+      <DependentUpon>VIEW STOCK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW STOCK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWEMPLOYEE.Designer.vb">
+      <DependentUpon>VIEWEMPLOYEE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWEMPLOYEE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AGENCYMANAGER.resx">
+      <DependentUpon>AGENCYMANAGER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOYEEMANAGER.resx">
+      <DependentUpon>EMPLOYEEMANAGER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MEDICINEMASTER.resx">
+      <DependentUpon>MEDICINEMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AGENCYMASTER.resx">
+      <DependentUpon>AGENCYMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOYEEMASTER.resx">
+      <DependentUpon>EMPLOYEEMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOADING PAGE.resx">
+      <DependentUpon>LOADING PAGE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGINSINGUP.resx">
+      <DependentUpon>LOGINSINGUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MEDICINEMANAGER.resx">
+      <DependentUpon>MEDICINEMANAGER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu page.resx">
+      <DependentUpon>Menu page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE.resx">
+      <DependentUpon>PURCHASE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASEMASTER.resx">
+      <DependentUpon>PURCHASEMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SALE.resx">
+      <DependentUpon>SALE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SALESMASTER.resx">
+      <DependentUpon>SALESMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SIGNUP PAGE.resx">
+      <DependentUpon>SIGNUP PAGE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STOCKMASTER.resx">
+      <DependentUpon>STOCKMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW AGENCY.resx">
+      <DependentUpon>VIEW AGENCY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW MEDICINE.resx">
+      <DependentUpon>VIEW MEDICINE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW PURCHASE.resx">
+      <DependentUpon>VIEW PURCHASE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW SALE.resx">
+      <DependentUpon>VIEW SALE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW STOCK.resx">
+      <DependentUpon>VIEW STOCK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWEMPLOYEE.resx">
+      <DependentUpon>VIEWEMPLOYEE.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DRUGEASEDataSet1.xsc">
+      <DependentUpon>DRUGEASEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet1.xss">
+      <DependentUpon>DRUGEASEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet10.xsc">
+      <DependentUpon>DRUGEASEDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet10.xss">
+      <DependentUpon>DRUGEASEDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet11.xsc">
+      <DependentUpon>DRUGEASEDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet11.xss">
+      <DependentUpon>DRUGEASEDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet2.xsc">
+      <DependentUpon>DRUGEASEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet2.xss">
+      <DependentUpon>DRUGEASEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet3.xsc">
+      <DependentUpon>DRUGEASEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet3.xss">
+      <DependentUpon>DRUGEASEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet4.xsc">
+      <DependentUpon>DRUGEASEDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet4.xss">
+      <DependentUpon>DRUGEASEDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet5.xsc">
+      <DependentUpon>DRUGEASEDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet5.xss">
+      <DependentUpon>DRUGEASEDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet6.xsc">
+      <DependentUpon>DRUGEASEDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet6.xss">
+      <DependentUpon>DRUGEASEDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet7.xsc">
+      <DependentUpon>DRUGEASEDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet7.xss">
+      <DependentUpon>DRUGEASEDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet8.xsc">
+      <DependentUpon>DRUGEASEDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet8.xss">
+      <DependentUpon>DRUGEASEDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet9.xsc">
+      <DependentUpon>DRUGEASEDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DRUGEASEDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DRUGEASEDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DRUGEASEDataSet9.xss">
+      <DependentUpon>DRUGEASEDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1177190052-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy_mark_4x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pur3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOUGOUT 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGOUT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PURCHASE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy_mark_4x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NORMAL SIZED .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OOjs_UI_icon_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_1893518.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\375px-Cancel_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_2022852.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_png-file-icon_3353491.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DRUGEASE.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="favicon.ico" />
+    <Content Include="ICONE.ico" />
+    <Content Include="MAIN ICON.ico" />
+    <None Include="Resources\ar.png" />
+    <None Include="Resources\NEW.png" />
+    <None Include="Resources\131-1315793_printer-icon-print-icon-png-circle.png" />
+    <None Include="Resources\14_Add-512.png" />
+    <None Include="Resources\ezgif.com-webp-to-png.png" />
+    <None Include="Resources\return-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
